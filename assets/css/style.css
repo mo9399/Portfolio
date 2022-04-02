@@ -13,24 +13,30 @@
 
   
   body {
-    font-family:fantasy;
+    font-family:'dancing script', cursive;
+    
   }
   
   /*header*/
   header {
-    padding: 20px 35px;
-    background-color: var(--tertiary-color);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    text-align:center;
+    width:100%;
+    height:auto;
+    position:relative;
+    overflow:hidden;
+    border-radius: 0 0 85% 85% / 30%;
+    background-color: var(--tertiary-color)
   }
 
+
+
   header h1 {
+    font-family: 'dancing script', cursive;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 50px;
     color: var(--primary-color);
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
   }
 
   header a {
@@ -53,8 +59,8 @@
   header nav ul li a {
       padding: 10px 15px;
       font-weight: lighter;
-      font-size: 1.55vw;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+      font-size: 30px;
+      text-shadow: 0 0 10px rgb(255, 255, 255); 
   }
 
 header nav ul li a:hover {
@@ -76,17 +82,57 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-color: var(--secondary-color);
+  
 }
 
 .hero-img img {
     max-width: 250px;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
+}
+
+
+div.hero-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
 }
 
 .hero-info h2 {
     text-align: center;
     color:var(--primary-color) ;
-    font-size: larger;
-  }
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/* section title */
+.section-title {
+    font-size: 36px;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0 auto 20px auto;
+    width: 50%;
+
+}
+
+/* about me*/
+.me p {
+    line-height: 1.7;
+    color: var(--primary-color);
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.me {
+    background-color: var(--secondary-color);
+}
