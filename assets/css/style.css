@@ -136,3 +136,45 @@ div.hero-img {
 .me {
     background-color: var(--secondary-color);
 }
+
+/*projects*/
+.project {
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.lable {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    border: var(--secondary-color);
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5),
+    0px 10px 7px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5),
+    0px 10px 7px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), 0px 10px 7px rgba(0, 0, 0, 0.2);
+}
+
+.label p {
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .label a {
+    text-decoration: none;
+  }
+  
+  .project img {
+    flex: 1 1 24vw;  
+    max-height: 400px;
+    height: 50vw;
+    display: block;
+    position: relative;
+    margin: 10px;
+  }
