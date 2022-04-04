@@ -172,7 +172,7 @@ div.hero-img {
   
   .project img {
     flex: 1 1 24vw;  
-    max-height: 400px;
+    max-height: 200px;
     height: 50vw;
     display: block;
     position: relative;
@@ -184,8 +184,15 @@ div.hero-img {
   .contact-info {
       color: var(--primary-color);
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       flex-wrap: wrap;
+ }
+
+
+
+  .contact-info > * {
+      flex: 1;
+      margin: 15px;
   }
 
   .contact-info address {
@@ -193,12 +200,30 @@ div.hero-img {
       font-size: 15px;
       font-style: normal;
       margin-left: 25%;
+      display: block;
+      justify-content: space-between;
+      flex-wrap: wrap;
   }
 
   .contact-info a {
       text-decoration: none;
       color: var(--primary-color);
   }
+
+  .contact-me {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 3px solid var(--secondary-color);
+    background-color: aliceblue;
+    padding: 20px;
+    width: 40%;
+    margin: 3.5%;
+    border-radius: 15px;
+  }
+
+
 
   .contact-me h3 {
       font-size: 25px;
@@ -233,4 +258,13 @@ div.hero-img {
       padding: 15px 0;
       font-size: 15px;
       border-radius: 10px;
+  }
+
+  .contact-me button:hover {
+      color: var(--primary-color);
+      background: var(--tertiary-color);
+  }
+
+  .flex-row {
+      display: flex;
   }
