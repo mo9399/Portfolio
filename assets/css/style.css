@@ -107,7 +107,7 @@ div.hero-img {
 .hero-info h2 {
     text-align: center;
     color:var(--primary-color) ;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
@@ -177,4 +177,60 @@ div.hero-img {
     display: block;
     position: relative;
     margin: 10px;
+  }
+  /*projects end*/
+
+  /*contact*/
+  .contact-info {
+      color: var(--primary-color);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+
+  .contact-info address {
+      line-height: 1.5;
+      font-size: 15px;
+      font-style: normal;
+      margin-left: 25%;
+  }
+
+  .contact-info a {
+      text-decoration: none;
+      color: var(--primary-color);
+  }
+
+  .contact-me h3 {
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
+
+  .contact-me input,
+  .contact-me textarea {
+      border: 1px solid var(--primary-color);
+      display: block;
+      padding: 7px 15px;
+      font-size: 18px;
+      color: var(--primary-color);
+      width: 100%;
+      margin-bottom: 15px;
+      margin-top: 5px;
+      border-radius: 10px;
+      background-color: var(--secondary-color);
+  }
+
+  .contact-me input:focus,
+  .contact-me textarea:focus {
+      outline: none;
+  }
+
+  .contact-me button {
+      width: 100%;
+      border: none;
+      background: var(--tertiary-color);
+      color: var(--primary-color);
+      text-align: center;
+      padding: 15px 0;
+      font-size: 15px;
+      border-radius: 10px;
   }
